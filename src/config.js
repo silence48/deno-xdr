@@ -1,9 +1,9 @@
-import isUndefined from 'lodash/isUndefined';
-import each from 'lodash/each';
-import * as XDRTypes from './types';
-import { Reference } from './reference';
+import isUndefined from 'https://esm.sh/lodash-es/isUndefined';
+import each from 'https://esm.sh/lodash-es/each';
+import * as XDRTypes from './types.js';
+import { Reference } from './reference.js';
 
-export * from './reference';
+export * from './reference.js';
 
 export function config(fn, types = {}) {
   if (fn) {

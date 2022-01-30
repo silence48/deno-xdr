@@ -1,5 +1,5 @@
-import isUndefined from 'lodash/isUndefined';
-import includeIoMixin from './io-mixin';
+import isUndefined from 'https://esm.sh/lodash-es/isUndefined';
+import includeIoMixin from './io-mixin.js';
 
 export const Void = {
   /* jshint unused: false */

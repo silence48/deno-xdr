@@ -1,10 +1,10 @@
-import every from 'lodash/every';
-import each from 'lodash/each';
-import times from 'lodash/times';
-import isArray from 'lodash/isArray';
-import { UnsignedInt } from './unsigned-int';
-import { Int } from './int';
-import includeIoMixin from './io-mixin';
+import every from 'https://esm.sh/lodash-es/every';
+import each from 'https://esm.sh/lodash-es/each';
+import times from 'https://esm.sh/lodash-es/times';
+import isArray from 'https://esm.sh/lodash-es/isArray';
+import { UnsignedInt } from './unsigned-int.js';
+import { Int } from './int.js';
+import includeIoMixin from './io-mixin.js';
 
 export class VarArray {
   constructor(childType, maxLength = UnsignedInt.MAX_VALUE) {

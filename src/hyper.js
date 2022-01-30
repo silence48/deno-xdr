@@ -1,5 +1,5 @@
-import Long from 'long';
-import includeIoMixin from './io-mixin';
+import Long from 'https://esm.sh/long';
+import includeIoMixin from './io-mixin.js';
 
 export class Hyper extends Long {
   static read(io) {

@@ -1,10 +1,10 @@
-import isString from 'lodash/isString';
-import isArray from 'lodash/isArray';
-import { Int } from './int';
-import { UnsignedInt } from './unsigned-int';
-import { calculatePadding, slicePadding } from './util';
-import includeIoMixin from './io-mixin';
-
+import isString from 'https://esm.sh/lodash-es/isString';
+import isArray from 'https://esm.sh/lodash-es/isArray';
+import { Int } from './int.js';
+import { UnsignedInt } from './unsigned-int.js';
+import { calculatePadding, slicePadding } from './util.js';
+import includeIoMixin from './io-mixin.js';
+import { Buffer } from 'https://esm.sh/buffer'
 export class String {
   constructor(maxLength = UnsignedInt.MAX_VALUE) {
     this._maxLength = maxLength;

@@ -1,4 +1,4 @@
-import every from 'lodash/every';
+import every from 'https://esm.sh/lodash-es/every';
 
 export function calculatePadding(length) {
   switch (length % 4) {

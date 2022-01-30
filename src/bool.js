@@ -1,6 +1,6 @@
-import isBoolean from 'lodash/isBoolean';
-import { Int } from './int';
-import includeIoMixin from './io-mixin';
+import isBoolean from 'https://esm.sh/lodash-es/isBoolean';
+import { Int } from './int.js';
+import includeIoMixin from './io-mixin.js';
 
 export const Bool = {
   read(io) {

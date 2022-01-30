@@ -1,4 +1,4 @@
-import * as XDR from '../src';
+import * as XDR from '../src/index.js';
 
 let xdr = XDR.config((xdr) => {
   xdr.union('Result', {

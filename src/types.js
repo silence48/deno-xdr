@@ -1,25 +1,25 @@
-export * from './int';
-export * from './hyper';
-export * from './unsigned-int';
-export * from './unsigned-hyper';
+export * from './int.js';
+export * from './hyper.js';
+export * from './unsigned-int.js';
+export * from './unsigned-hyper.js';
 
-export * from './float';
-export * from './double';
-export * from './quadruple';
+export * from './float.js';
+export * from './double.js';
+export * from './quadruple.js';
 
-export * from './bool';
+export * from './bool.js';
 
-export * from './string';
+export * from './string.js';
 
-export * from './opaque';
-export * from './var-opaque';
+export * from './opaque.js';
+export * from './var-opaque.js';
 
-export * from './array';
-export * from './var-array';
+export * from './array.js';
+export * from './var-array.js';
 
-export * from './option';
-export * from './void';
+export * from './option.js';
+export * from './void.js';
 
-export * from './enum';
-export * from './struct';
-export * from './union';
+export * from './enum.js';
+export * from './struct.js';
+export * from './union.js';

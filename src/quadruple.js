@@ -1,4 +1,4 @@
-import includeIoMixin from './io-mixin';
+import includeIoMixin from './io-mixin.js';
 
 export const Quadruple = {
   /* jshint unused: false */

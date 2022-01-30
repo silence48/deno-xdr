@@ -1,7 +1,7 @@
-import each from 'lodash/each';
-import vals from 'lodash/values';
-import { Int } from './int';
-import includeIoMixin from './io-mixin';
+import each from 'https://esm.sh/lodash-es/each';
+import vals from 'https://esm.sh/lodash-es/values';
+import { Int } from './int.js';
+import includeIoMixin from './io-mixin.js';
 
 export class Enum {
   constructor(name, value) {

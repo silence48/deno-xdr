@@ -1,6 +1,6 @@
-import { calculatePadding, slicePadding } from './util';
-import includeIoMixin from './io-mixin';
-
+import { calculatePadding, slicePadding } from './util.js';
+import includeIoMixin from './io-mixin.js';
+import { Buffer } from 'https://esm.sh/buffer'
 export class Opaque {
   constructor(length) {
     this._length = length;

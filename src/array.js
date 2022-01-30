@@ -1,8 +1,8 @@
-import every from 'lodash/every';
-import each from 'lodash/each';
-import times from 'lodash/times';
-import isArray from 'lodash/isArray';
-import includeIoMixin from './io-mixin';
+import every from 'https://esm.sh/lodash-es/every';
+import each from 'https://esm.sh/lodash-es/each';
+import times from 'https://esm.sh/lodash-es/times';
+import isArray from 'https://esm.sh/lodash-es/isArray';
+import includeIoMixin from './io-mixin.js';
 
 export class Array {
   constructor(childType, length) {

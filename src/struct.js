@@ -1,9 +1,9 @@
-import each from 'lodash/each';
-import map from 'lodash/map';
-import isUndefined from 'lodash/isUndefined';
-import fromPairs from 'lodash/fromPairs';
-import { Reference } from './reference';
-import includeIoMixin from './io-mixin';
+import each from 'https://esm.sh/lodash-es/each';
+import map from 'https://esm.sh/lodash-es/map';
+import isUndefined from 'https://esm.sh/lodash-es/isUndefined';
+import fromPairs from 'https://esm.sh/lodash-es/fromPairs';
+import { Reference } from './reference.js';
+import includeIoMixin from './io-mixin.js';
 
 export class Struct {
   constructor(attributes) {

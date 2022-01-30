@@ -1,4 +1,5 @@
-import * as XDR from '../src';
+import * as XDR from '../src/index.js';
+import { Buffer } from 'https://esm.sh/buffer'
 
 let xdr = XDR.config((xdr) => {
   xdr.enum('Color', {

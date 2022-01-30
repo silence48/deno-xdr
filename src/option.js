@@ -1,7 +1,7 @@
-import isNull from 'lodash/isNull';
-import isUndefined from 'lodash/isUndefined';
-import { Bool } from './bool';
-import includeIoMixin from './io-mixin';
+import isNull from 'https://esm.sh/lodash-es/isNull';
+import isUndefined from 'https://esm.sh/lodash-es/isUndefined';
+import { Bool } from './bool.js';
+import includeIoMixin from './io-mixin.js';
 
 export class Option {
   constructor(childType) {

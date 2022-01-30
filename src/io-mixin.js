@@ -1,9 +1,9 @@
-import extend from 'lodash/extend';
-import isFunction from 'lodash/isFunction';
-import { Cursor } from './cursor';
-
+import extend from 'https://esm.sh/lodash-es/extend';
+import isFunction from 'https://esm.sh/lodash-es/isFunction';
+import { Cursor } from './cursor.js';
+import { Buffer } from 'https://deno.land/std/io/buffer.ts'
 // TODO: build a system to grow a buffer as we write to it
-const BUFFER_SIZE = Math.pow(2, 16);
+const BUFFER_SIZE = 2 ** 16;
 
 const staticMethods = {
   toXDR(val) {

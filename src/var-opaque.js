@@ -1,8 +1,8 @@
-import { Int } from './int';
-import { UnsignedInt } from './unsigned-int';
-import { calculatePadding, slicePadding } from './util';
-import includeIoMixin from './io-mixin';
-
+import { Int } from './int.js';
+import { UnsignedInt } from './unsigned-int.js';
+import { calculatePadding, slicePadding } from './util.js';
+import includeIoMixin from './io-mixin.js';
+import { Buffer } from 'https://esm.sh/buffer'
 export class VarOpaque {
   constructor(maxLength = UnsignedInt.MAX_VALUE) {
     this._maxLength = maxLength;

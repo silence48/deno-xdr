@@ -1,9 +1,9 @@
-import each from 'lodash/each';
-import isUndefined from 'lodash/isUndefined';
-import isString from 'lodash/isString';
-import { Void } from './void';
-import { Reference } from './reference';
-import includeIoMixin from './io-mixin';
+import each from 'https://esm.sh/lodash-es/each';
+import isUndefined from 'https://esm.sh/lodash-es/isUndefined';
+import isString from 'https://esm.sh/lodash-es/isString';
+import { Void } from './void.js';
+import { Reference } from './reference.js';
+import includeIoMixin from './io-mixin.js';
 
 export class Union {
   constructor(aSwitch, value) {

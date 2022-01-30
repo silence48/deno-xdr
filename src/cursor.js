@@ -1,5 +1,5 @@
-import { calculatePadding } from './util';
-
+import { calculatePadding } from './util.js';
+import { Buffer } from 'https://esm.sh/buffer'
 class Cursor {
   constructor(buffer) {
     if (!(buffer instanceof Buffer)) {

@@ -1,5 +1,5 @@
-import isNumber from 'lodash/isNumber';
-import includeIoMixin from './io-mixin';
+import isNumber from 'https://esm.sh/lodash-es/isNumber';
+import includeIoMixin from './io-mixin.js';
 
 export const Float = {
   read(io) {
